@@ -1,0 +1,32 @@
+# Entornos virtuales
+venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales o de configuración local
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno y credenciales
+.env
+*.secret
+*.key
+
+# Archivos generados por Streamlit o caché
+.streamlit/
+.cache/
+
+# Archivos grandes o privados (opcional)
+data/
+datasets/
